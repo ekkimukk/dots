@@ -1,0 +1,65 @@
+1706956586828	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1706957024016	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1706957024017	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1706957024022	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1706957024023	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1706957695745	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1706957695747	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1706957695747	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1706957695748	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1706957697749	Sync.Service	DEBUG	User-Agent: Firefox/122.0 (Linux x86_64) FxSync/1.124.0.20240123151424.desktop
+1706957697749	Sync.Service	INFO	Starting sync at 2024-02-03 13:54:57 in browser session a2NKRlS-X7Qc
+1706957697749	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1706957697752	Sync.Status	INFO	Resetting Status.
+1706957697752	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1706957697752	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1706957697752	FirefoxAccounts	DEBUG	getOAuthToken enter
+1706957697753	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1706957697753	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1706957697753	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1706957697759	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697759	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697761	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697761	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697763	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697763	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697765	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697765	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697767	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697767	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697768	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697768	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697770	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697770	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697772	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697772	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697774	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697774	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697776	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697776	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697778	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697778	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697780	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697780	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697781	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697781	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697783	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697783	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697785	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697785	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697787	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697787	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697789	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697789	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697794	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697794	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697796	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697796	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697797	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1706957697797	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1706957697799	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398890 - NS_ERROR_UNKNOWN_PROXY_HOST
+1706957697800	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_PROXY_HOST\"  nsresult: \"0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1706957697800	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/collections failed: [Exception... "The lookup of the proxy hostname failed"  nsresult: "0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)"  location: "<unknown>"  data: no] No traceback available
+1706957697800	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the proxy hostname failed"  nsresult: "0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)"  location: "<unknown>"  data: no] No traceback available
+1706957697801	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1706957697803	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the proxy hostname failed"  nsresult: "0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)"  location: "<unknown>"  data: no] No traceback available

@@ -1,0 +1,5 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+detectportal.firefox.com:443:	OID.2.16.840.1.101.3.4.2.1	4B:43:44:C9:42:90:3B:B5:C0:7E:BE:81:A4:6B:42:3D:BC:C3:2D:14:71:55:B0:51:F3:9F:76:E1:15:0A:F3:64	
+download.sigur-ros.co.uk:443:	OID.2.16.840.1.101.3.4.2.1	50:96:EF:A2:0C:B9:9A:D7:29:73:43:3D:A1:C0:86:13:BE:75:0B:41:78:08:FC:80:33:62:8A:9F:44:2D:DD:44	
+go-tour.com:443:	OID.2.16.840.1.101.3.4.2.1	3B:CF:2A:38:2F:86:EF:99:1C:A3:01:B8:18:5F:38:E2:DC:33:A9:0D:F2:1F:31:86:FB:DD:44:23:B7:37:02:01	

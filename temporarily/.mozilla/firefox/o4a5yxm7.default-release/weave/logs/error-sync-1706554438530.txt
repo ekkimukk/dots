@@ -1,0 +1,111 @@
+1706553838217	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1706553846821	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706553852322	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706553852325	Sync.Engine.Tabs	INFO	Posting 1 records of 619 bytes with batch=true
+1706553852326	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706553852329	Sync.Collection	DEBUG	POST Length: 619
+1706553852656	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706553852687	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706553864545	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706553869773	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706553869785	Sync.Engine.Tabs	INFO	Posting 1 records of 579 bytes with batch=true
+1706553869787	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706553869798	Sync.Collection	DEBUG	POST Length: 579
+1706553870111	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706553870184	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706553919744	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706553925519	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706553925530	Sync.Engine.Tabs	INFO	Posting 1 records of 579 bytes with batch=true
+1706553925530	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706553925531	Sync.Collection	DEBUG	POST Length: 579
+1706553925929	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706553925979	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706553934079	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706553939184	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706553939186	Sync.Engine.Tabs	INFO	Posting 1 records of 599 bytes with batch=true
+1706553939187	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706553939189	Sync.Collection	DEBUG	POST Length: 599
+1706553939462	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706553939504	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706554172300	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706554177424	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706554177425	Sync.Engine.Tabs	INFO	Posting 1 records of 619 bytes with batch=true
+1706554177425	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1706554177425	FirefoxAccounts	DEBUG	getOAuthToken enter
+1706554177427	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1706554177427	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1706554177427	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1706554177432	Sync.Collection	DEBUG	POST Length: 619
+1706554177900	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1706554177973	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706554178015	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706554194347	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706554200335	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706554200338	Sync.Engine.Tabs	INFO	Posting 1 records of 579 bytes with batch=true
+1706554200339	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706554200340	Sync.Collection	DEBUG	POST Length: 579
+1706554200616	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706554200661	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706554215245	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706554219461	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706554220513	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706554220514	Sync.Engine.Tabs	INFO	Posting 1 records of 515 bytes with batch=true
+1706554220514	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706554220514	Sync.Collection	DEBUG	POST Length: 515
+1706554220772	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706554220812	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706554235883	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706554241066	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706554241067	Sync.Engine.Tabs	INFO	Posting 1 records of 599 bytes with batch=true
+1706554241067	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706554241068	Sync.Collection	DEBUG	POST Length: 599
+1706554241336	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706554241377	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706554268508	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706554273808	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706554273811	Sync.Engine.Tabs	INFO	Posting 1 records of 643 bytes with batch=true
+1706554273812	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706554273813	Sync.Collection	DEBUG	POST Length: 643
+1706554274106	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true
+1706554274163	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1706554438290	Sync.Service	DEBUG	User-Agent: Firefox/122.0 (Linux x86_64) FxSync/1.124.0.20240123151424.desktop
+1706554438290	Sync.Service	INFO	Starting sync at 2024-01-29 21:53:58 in browser session TQ6gWQ14Hz1J
+1706554438291	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1706554438294	Sync.Status	INFO	Resetting Status.
+1706554438294	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1706554438294	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1706554438294	FirefoxAccounts	DEBUG	getOAuthToken enter
+1706554438295	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1706554438295	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1706554438295	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1706554438524	Sync.Resource	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/collections
+1706554438524	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/collections failed with status 503
+1706554438524	Sync.ErrorHandler	DEBUG	Got Retry-After: 3600
+1706554438524	Sync.Status	DEBUG	Status.sync: success.sync => error.sync.reason.serverMaintenance
+1706554438524	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1706554438524	Sync.SyncScheduler	DEBUG	Got backoff notification: 3600000ms
+1706554438525	Sync.SyncScheduler	DEBUG	Fuzzed minimum next sync: 1706558038524
+1706554438525	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1706554438525	Sync.Resource	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:222:21) JS Stack trace: _processResponse/<@resource.sys.mjs:222:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@logmanager.sys.mjs:137:44
+log@Log.sys.mjs:376:16
+error@Log.sys.mjs:384:10
+observe@policies.sys.mjs:897:19
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:183:19
+WrappedNotify@util.sys.mjs:193:17
+1706554438525	Sync.Resource	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1706554438525	Sync.ErrorHandler	ERROR	Sync encountered an error: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/collections", status:503, success:false, headers:{'alt-svc':"clear", 'content-length':"162", 'content-type':"text/html", date:"Mon, 29 Jan 2024 18:53:58 GMT", etag:"\"65b76f33-a2\"", 'retry-after':"3600", server:"openresty/1.15.8.2", via:"1.1 google", 'x-firefox-spdy':"h2"}, get obj() {
+    [native code]
+}})
+1706554438526	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 4216016.548268714 ms.
+1706554438526	Sync.SyncScheduler	DEBUG	Next sync in 4216016.548268714 ms. (why=client-backoff-schedule)
+1706554438529	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/collections","status":503,"success":false,"headers":{"alt-svc":"clear","content-length":"162","content-type":"text/html","date":"Mon, 29 Jan 2024 18:53:58 GMT","etag":"\"65b76f33-a2\"","retry-after":"3600","server":"openresty/1.15.8.2","via":"1.1 google","x-firefox-spdy":"h2"}}

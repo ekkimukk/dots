@@ -1,0 +1,180 @@
+#-- Monochrome
+#_C.bg_dark      = '#181515'
+#_C.bg_dim       = '#221E1E'
+#_C.bg_normal    = '#2B2626'
+#_C.bg_light     = '#423939'
+#_C.mid_dark     = '#6D5F5F'
+#_C.mid_normal   = '#978787'
+#_C.mid_light    = '#B6A8A5'
+#_C.fg_normal    = '#F4E6D2'
+#-- Colors
+#_C.red          = '#CA3F3F'
+#_C.orange       = '#E46A3A'
+#_C.yellow       = '#E39C45'
+#_C.green        = '#989F56'
+#_C.cyan         = '#629386'
+#_C.lightblue    = '#517894'
+#_C.blue         = '#4A5A8D'
+#_C.purple       = '#9F569A'
+#_C.magenta      = '#C45497'
+
+[colors.bright]
+black   = "0x727474"
+blue    = "0x79A6DA"
+cyan    = "0x70C0B1"
+green   = "0xB9CA49"
+magenta = "0xC397D8"
+red     = "0xD54E53"
+white   = "0xf2faf6"
+yellow  = "0xE7C547"
+
+[colors.normal]
+black   = "0x213225"
+blue    = "0x79A6DA"
+cyan    = "0x70C0B1"
+green   = "0xB9CA49"
+magenta = "0xC397D8"
+red     = "0xD54E53"
+white   = "0xf2faf6"
+yellow  = "0xE7C547"
+
+[colors.primary]
+background = "0x010101"
+foreground = "0xB3B1AD"
+
+[cursor]
+style = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 10.0
+
+[font.normal]
+family = "EllographCF"
+#family = "JetBrainsMono"
+style = "Medium"
+
+[font.bold]
+family = "EllographCF"
+#family = "JetBrainsMono"
+style = "Bold"
+
+[font.bold_italic]
+family = "EllographCF"
+#family = "JetBrainsMono"
+style = "Bold Italic"
+
+[font.italic]
+family = "EllographCF"
+#family = "JetBrainsMono"
+style = "Italic"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Paste"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Copy"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ClearLogNotice"
+key = "L"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\f"
+key = "L"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mode = "~Alt"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mode = "~Alt"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mode = "~Alt"
+mods = "Shift"
+
+[scrolling]
+history = 10000
+
+[window]
+dynamic_padding = false
+opacity = 1
+title = "alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.dimensions]
+columns = 72
+lines = 22
+
+[window.padding]
+x = 0
+y = 0

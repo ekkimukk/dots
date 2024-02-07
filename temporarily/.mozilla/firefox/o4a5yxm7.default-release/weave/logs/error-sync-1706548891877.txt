@@ -1,0 +1,28 @@
+1706548863641	Sync.LogManager	DEBUG	Flushing file log
+1706548863649	Sync.LogManager	DEBUG	Log cleanup threshold time: 1705684863649
+1706548863659	Sync.LogManager	DEBUG	Done deleting files.
+1706548875710	Sync.SyncScheduler	DEBUG	Global Score threshold hit, triggering sync.
+1706548875710	Sync.Service	DEBUG	User-Agent: Firefox/122.0 (Linux x86_64) FxSync/1.124.0.20240123151424.desktop
+1706548875710	Sync.Service	INFO	Starting sync at 2024-01-29 20:21:15 in browser session Dp2DmzCnQo6S
+1706548875710	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1706548875712	Sync.Status	INFO	Resetting Status.
+1706548875712	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1706548875713	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706548878583	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706548879719	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/tabs?batch=true&commit=true failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1706548879720	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1706548881225	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548882559	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548883543	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548883819	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706548883821	Sync.Engine.Tabs	INFO	Posting 1 records of 791 bytes with batch=true
+1706548883821	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706548883822	Sync.Collection	DEBUG	POST Length: 791
+1706548887687	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706548888595	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548891873	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1706548891873	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1706548891873	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1706548891873	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1706548891874	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1706548891877	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

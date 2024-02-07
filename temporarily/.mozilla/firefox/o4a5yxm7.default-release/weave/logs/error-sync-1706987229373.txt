@@ -1,0 +1,53 @@
+1706987223681	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1706987227188	Sync.Service	DEBUG	User-Agent: Firefox/122.0 (Linux x86_64) FxSync/1.124.0.20240123151424.desktop
+1706987227188	Sync.Service	INFO	Starting sync at 2024-02-03 22:07:07 in browser session a2NKRlS-X7Qc
+1706987227188	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1706987227190	Sync.Status	INFO	Resetting Status.
+1706987227190	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1706987227190	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706987227487	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/collections
+1706987227487	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/configuration
+1706987227487	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706987227776	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/configuration
+1706987227776	Sync.Service	DEBUG	Fetching global metadata record
+1706987227776	Sync.Service	DEBUG	Weave Version: 1.124.0 Local Storage: 5 Remote Storage: 5
+1706987227776	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1706987227776	Sync.Service	INFO	Testing info/collections: {"history":1706983274.53,"meta":1689687829.59,"prefs":1704212545.19,"tabs":1706987224.29,"addons":1704404966.22,"crypto":1689687817.83,"bookmarks":1705770360.67,"clients":1706948907.45,"passwords":1704731268.44,"forms":1706983274.19,"extension-storage":1706898515.31}
+1706987227776	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1689687817.83
+1706987227776	Sync.Synchronizer	DEBUG	Refreshing client list.
+1706987227777	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1706987227777	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1706987228103	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/storage/clients?full=1&limit=1000
+1706987228114	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 8 reconciled.
+1706987228114	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1706987228115	Sync.Engine.Clients	INFO	Hiding stale client v6KhKCPGJvxD - in known stale clients list
+1706987228115	Sync.Engine.Clients	INFO	Hiding stale client 1YXKCl-qnqCp - in known stale clients list
+1706987228115	Sync.Engine.Clients	INFO	Hiding stale client 6nQGExC_r4jS - in known stale clients list
+1706987228115	Sync.Engine.Clients	INFO	Hiding stale client 6nQGExC_r4jS with age 6433907.00999999
+1706987228115	Sync.Engine.Clients	INFO	Hiding stale client J59QE2h4Rz_o - in known stale clients list
+1706987228115	Sync.Engine.Clients	INFO	Hiding stale client WKuinTbVLVvb - in known stale clients list
+1706987228115	Sync.Engine.Clients	INFO	Hiding stale client WKuinTbVLVvb with age 6433907.00999999
+1706987228115	Sync.Engine.Clients	INFO	Hiding stale client _ol4UPY1YG3u - in known stale clients list
+1706987228116	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1706987228117	Sync.Synchronizer	INFO	Updating enabled engines: 2 clients.
+1706987228118	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1706987228119	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1706987228119	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1706987228580	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1706987228580	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1706987229059	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1706987229369	Sync.Status	DEBUG	Status for engine tabs: error.engine.reason.unknown_fail
+1706987229369	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1706987229369	Sync.ErrorHandler	DEBUG	tabs was interrupted due to the application shutting down
+1706987229370	Sync.Synchronizer	INFO	tabs was interrupted by shutdown; no other engines will sync
+1706987229370	Sync.Synchronizer	INFO	Aborting sync for failure in tabs
+1706987229370	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1706987229370	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1706987229370	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1706987229370	Sync.Synchronizer	INFO	Sync completed at 2024-02-03 22:07:09 after 2.18 secs.
+1706987229371	Sync.Declined	DEBUG	Handling remote declined: []
+1706987229371	Sync.Declined	DEBUG	Handling local declined: []
+1706987229371	Sync.Declined	DEBUG	Declined changed? false
+1706987229371	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1706987229371	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1706987229371	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

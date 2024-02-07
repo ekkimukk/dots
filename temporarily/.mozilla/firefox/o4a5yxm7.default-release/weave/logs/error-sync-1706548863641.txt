@@ -1,0 +1,36 @@
+1706548463782	Sync.LogManager	DEBUG	Flushing file log
+1706548463797	Sync.LogManager	DEBUG	Log cleanup threshold time: 1705684463797
+1706548463799	Sync.LogManager	DEBUG	Done deleting files.
+1706548831572	Sync.Service	DEBUG	User-Agent: Firefox/122.0 (Linux x86_64) FxSync/1.124.0.20240123151424.desktop
+1706548831572	Sync.Service	INFO	Starting sync at 2024-01-29 20:20:31 in browser session Dp2DmzCnQo6S
+1706548831572	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1706548831579	Sync.Status	INFO	Resetting Status.
+1706548831579	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1706548831581	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1706548831581	FirefoxAccounts	DEBUG	getOAuthToken enter
+1706548831582	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1706548831582	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1706548831583	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1706548840546	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706548841205	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548845096	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548845684	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1706548845686	Sync.Engine.Tabs	INFO	Posting 1 records of 791 bytes with batch=true
+1706548845687	Sync.Collection	DEBUG	POST Length: 791
+1706548845731	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706548846912	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548847499	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548847511	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548847553	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1706548850763	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1706548851047	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1706548856491	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1706548863634	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1706548863634	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1706548863635	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1706548863635	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/207020392/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1706548863635	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1706548863635	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1706548863636	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1706548863637	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1706548863640	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

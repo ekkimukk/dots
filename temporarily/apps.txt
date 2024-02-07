@@ -1,0 +1,1 @@
+allacritty bat discord htop neovim obsidian qbittorrent tmux zathura firefox telegram
